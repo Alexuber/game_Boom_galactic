@@ -24,7 +24,7 @@ gameBlock = document.querySelector("#game");
 // блок гейм в консоль выводим
 console.dir(gameBlock);
 // кол-во жизней
-countLifes = 1;
+countLifes = 3;
 // скин игрока
 gamerSkin = "skin_1";
 
@@ -90,8 +90,6 @@ function startGame() {
     createLifes();
     createEnemy();
 }
-
-
 
 /*
 работа с врагами
